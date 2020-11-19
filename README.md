@@ -15,6 +15,8 @@ tests package - It contains the tests to be carried on.
 		UITest - contains the UI tests
 		RestAPITest - contains the backend tests or the API tests given in the task sheet
 		
+RestAssured library is used for the API tests.
+		
 Utils package - It contains various utility classes like seleniumUtil, RestUtils, ObjectRepository, JSONUtils and Constants.
 
 The locator used in this project is xpath as it is can be used get the element by using the css attributes and also other locators
