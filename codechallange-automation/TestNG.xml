@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite"  thread-count="2">
+  <test name="Test">
+    <classes>
+      <class name="com.takeaway.codechallenge.tests.UITest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="RestTest">
+    <classes>
+      <class name="com.takeaway.codechallenge.tests.RestAPITest"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

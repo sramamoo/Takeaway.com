@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.takeaway.codechallenge.tests.UITest">
+        <methods>
+          <include name="cusineTestIndian"/>
+          <include name="beforeClass"/>
+          <include name="deliveryCostTest2_5"/>
+          <include name="cusineTestMexican"/>
+          <include name="cusineTestItalian"/>
+          <include name="deliveryCostTest1"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.takeaway.codechallenge.tests.UITest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
